@@ -275,7 +275,41 @@
     "path": "/",
     "sections": [
       {
-        "__resolveType": "site/sections/Header.tsx"
+        "__resolveType": "site/sections/Header.tsx",
+        "logo": {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6782/aec7806e-0a8a-4411-943b-213fe096e027",
+          "alt": "Member Hub"
+        },
+        "navigation": {
+          "links": [
+            {
+              "label": "Recursos"
+            },
+            {
+              "label": "App Próprio"
+            },
+            {
+              "label": "Checkouts"
+            },
+            {
+              "label": "Hospedagens de Conteúdo"
+            },
+            {
+              "label": "Atendimento Dedicado"
+            },
+            {
+              "label": "FAQ"
+            }
+          ],
+          "buttons": [
+            {
+              "id": "#",
+              "href": "#",
+              "text": "Falar com especialista",
+              "outline": true
+            }
+          ]
+        }
       },
       {
         "__resolveType": "website/sections/Seo/SeoV2.tsx",
@@ -284,9 +318,16 @@
       },
       {
         "__resolveType": "site/sections/Hero.tsx",
-        "cta": [],
-        "title": "<p>Click here to tweak this text however you want.</p>",
-        "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away."
+        "cta": [
+          {
+            "id": "#",
+            "href": "$",
+            "text": "Quero saber mais",
+            "outline": false
+          }
+        ],
+        "title": "<p><span>A área de membros final<br>para infoprodutores</span></p>",
+        "description": "Eleve seu infoproduto com experiência 100% personalizada, apps próprios nativos iOS/Android e integração com seu checkout favorito."
       },
       {
         "__resolveType": "site/sections/Logos.tsx"
